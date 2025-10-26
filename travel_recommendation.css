@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Century Gothic", "Gothic", sans-serif;
+}
+
+nav{
+    display:flex;
+    background-color: black;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.NavName{
+    margin-left: 10px;
+}
+
+.NavName h1 {
+    font-size: 1.5rem;
+}
+
+.NavName ul {
+    list-style-type: none;
+    display: flex;           
+    align-items: center;     
+  }
+  
+  .NavName ul li {
+    margin-right: 10px;      
+  }
+  
+  .NavName i {
+    font-size: 1.5rem;
+    color: #00bfff;          
+  }
+
+
+.NavItems ul {
+    list-style-type: none;
+    display: flex;          
+    align-items: center;     
+  }
+  
+  .NavItems ul li {
+    margin-right: 10px;      
+  }
+  
+  .NavItems i {
+    font-size: 1 rem;
+  }
+
+  .NavItems a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+  }
+
+  .NavSearch{
+    margin-right: 10px;
+  }
+
+  .NavSearch ul {
+    list-style-type: none;
+    display: flex;          
+    align-items: center;     
+  }
+  
+  .NavSearch ul li {
+    margin-right: 10px;      
+  }
+  
+  .NavSearch i {
+    font-size: 1 rem;
+  }
+
+  .placeSearch {
+
+    width: 250px;
+  }
+
+.placeSearch:hover {
+
+    border: 2px solid gray;
+  }
+
+.srcButton{
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+
