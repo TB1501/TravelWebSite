@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./contact.css" />
+    <script
+      src="https://kit.fontawesome.com/3bfd3ce9e5.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>About</title>
+  </head>
+  <body>
+    <nav>
+      <div class="NavName">
+        <ul>
+          <li><i class="fa-solid fa-plane fa-bounce"></i></li>
+          <li><h1>Travel Stories</h1></li>
+        </ul>
+      </div>
+      <div class="NavItems">
+        <ul>
+          <li><i class="fa-solid fa-home"></i></li>
+          <li><a href="./travel_recommendation.html" id="home">Home</a></li>
+          <li><i class="fa-solid fa-i"></i></li>
+          <li><a href="./about.html" id="home">About Us</a></li>
+          <li><i class="fa-solid fa-phone"></i></li>
+          <li><a href="./contac.html" id="home">Contatc Us</a></li>
+        </ul>
+      </div>
+      <div class="NavSearch">
+        <ul>
+          <li><i class="fa-solid fa-search"></i></li>
+          <li>
+            <input
+              type="text"
+              class="placeSearch"
+              placeholder="Enter a destination or keyword"
+            />
+          </li>
+          <li><button class="srcButton">Search</button></li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <div class="description">
+        <h1>CONTACT US</h1>
+      </div>
+      <div class="contactForm">
+        <label for="name">Name</label>
+        <input
+          id="name"
+          type="text"
+          class="nameTag"
+          placeholder="Enter your name"
+        />
+
+        <label for="email">Email</label>
+        <input
+          id="email"
+          type="email"
+          class="mailTag"
+          placeholder="Enter your e-mail"
+        />
+
+        <label for="message">Message</label>
+        <textarea
+          id="message"
+          class="messageTag"
+          placeholder="Enter your message"
+        ></textarea>
+        <button class="formBtn">Submit</button>
+      </div>
+    </main>
+  </body>
+</html>

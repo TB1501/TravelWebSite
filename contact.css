@@ -108,7 +108,7 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     height: 100vh;
     padding-left: 50px;
 
@@ -116,24 +116,63 @@ nav{
 
   main h1{
     color:white;
-    font-size: 3rem;
-    width:300px;
-    padding-bottom: 20px;
+    font-size: 4rem;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
 
   }
 
-  main p{
+
+  .contactForm{
+    width: 450px;
+  }
+
+  .contactForm p{
     color: white;
-    font-size: 1rem;
-    width: 300px;
+    font-weight: bold;
+
+    
+
   }
 
-  .bookBtn{
-    margin-top: 10px;
-    padding: 10px 10px;
+  .nameTag{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 450px;
+    height: 30px;
+    opacity: 0.5;
+  }
+
+  .mailTag{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 450px;
+    height: 30px;
+    opacity: 0.5;
+  }
+
+  .messageTag{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 450px;
+    height: 150px;
+    opacity: 0.5;
+  }
+
+  .formBtn{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width:450px;
+    padding: 5px 10px;
     background-color: #4CAF50;
     color: white;
     border: none;
     cursor: pointer;
     border-radius: 8px;
   }
+
+
+
+
+
