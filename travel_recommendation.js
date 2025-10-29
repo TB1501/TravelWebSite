@@ -31,7 +31,7 @@ function recommendations() {
           travelList.forEach((country) => {
             country.cities.forEach((city) => {
               resultDiv.innerHTML += `
-                <img src="${city.imageUrl}" alt="${city.name}" class="rezImg">
+                <img src="${city.imageUrl}" alt="${city.name}" style="height:250px; width=250px;" class="rezImg">
                 <p class="rezName"><b>${city.name}</b></p>
                 <p class="rezDescr">${city.description}</p>
               `;
@@ -40,7 +40,7 @@ function recommendations() {
         } else {
           travelList.forEach((item) => {
             resultDiv.innerHTML += `
-              <img src="${item.imageUrl}" alt="${item.name}" class="rezImg">
+              <img src="${item.imageUrl}" alt="picture" style="height: 250px; width: 250px;" class="rezImg">
               <p class="rezName"><b>${item.name}</b></p>
               <p class="rezDescr">${item.description}</p>
             `;

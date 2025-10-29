@@ -105,11 +105,12 @@ nav{
   }
 
   main{
+    margin-left: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    gap: 500px;
+    gap: 300px;
     height: 100vh;
 
 
